@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
 var PlaceholderFaker = function(){
 
-    this.getInputsPlaceholder = () => {
+    this.getInputsPlaceholder = function(){
         var inputs = document.querySelectorAll('input[placeholder]');
 
         for (let index = 0; index < inputs.length; index++) {
@@ -37,7 +37,7 @@ var PlaceholderFaker = function(){
 
     }
 
-    this.initalEvents = () => {
+    this.initalEvents = function(){
 
         var inputs = document.querySelectorAll('outer-input');
 
