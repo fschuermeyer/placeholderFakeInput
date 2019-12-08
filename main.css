@@ -1,3 +1,8 @@
+placeholder-data-container{
+    display: none!important;
+    opacity: 0!important;
+}
+
 input{
     padding: 10px;
     width: 290px;
@@ -20,6 +25,10 @@ placeholder-fake{
     font-family: sans-serif;
     font-size: 20px;
     opacity: 0.6;
+}
+
+outer-input.internetExplorer placeholder-fake{
+    top: 10px;
 }
 
 placeholder-fake span{
